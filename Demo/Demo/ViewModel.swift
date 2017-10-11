@@ -36,7 +36,11 @@ class ViewModel {
     lazy var captchaCommand: RxCommand<Void, Void> = {
         let captchaEnabled = Observable<Bool>
             .combineLatest(self.phoneNumber.asObservable(), self.countdownCommand.executing) { phone, executing in
+<<<<<<< HEAD
                 return phone.characters.count == 11 && !executing
+=======
+                return phone.count == 11 && !executing
+>>>>>>> 810ecc6... update : 第一次提交
         }
         return RxCommand(enabled:captchaEnabled) {[weak self] _ in
             guard let `self` = self else { return Observable.empty()}
@@ -51,7 +55,11 @@ class ViewModel {
     // 登陆
     lazy var loginCommand: RxCommand<Void, String> = {
         let loginEnabled = Observable<Bool>
+<<<<<<< HEAD
             .combineLatest(self.phoneNumber.asObservable(), self.captcha.asObservable()) { $0.characters.count == 11 &&  $1.characters.count == 6 }
+=======
+            .combineLatest(self.phoneNumber.asObservable(), self.captcha.asObservable()) { $0.count == 11 &&  $1.count == 6 }
+>>>>>>> 810ecc6... update : 第一次提交
         
         return RxCommand(enabled: loginEnabled) { [weak self] _ in
             guard let `self` = self else { return Observable.empty()}
@@ -78,6 +86,10 @@ class ViewModel {
         return Observable<Int>.timer(2, scheduler: MainScheduler.instance)
             .map{ _ in () }
             .ignoreElements()
+<<<<<<< HEAD
             .concat(Observable.just(()))
+=======
+            .andThen(Observable.just(()))
+>>>>>>> 810ecc6... update : 第一次提交
     }
 }

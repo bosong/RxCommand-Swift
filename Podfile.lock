@@ -1,4 +1,5 @@
 PODS:
+<<<<<<< HEAD
   - IQKeyboardManagerSwift (4.0.10)
   - PKHUD (4.2.3)
   - RxCocoa (3.6.1):
@@ -11,6 +12,16 @@ PODS:
 DEPENDENCIES:
   - IQKeyboardManagerSwift (= 4.0.10)
   - PKHUD (= 4.2.3)
+=======
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxCommand (0.0.1):
+    - RxCocoa (~> 4.5.0)
+    - RxSwift (~> 4.5.0)
+  - RxSwift (4.5.0)
+
+DEPENDENCIES:
+>>>>>>> 810ecc6... update : 第一次提交
   - RxCommand (from `./`)
 
 EXTERNAL SOURCES:
@@ -18,6 +29,7 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
+<<<<<<< HEAD
   IQKeyboardManagerSwift: 75ba21a23794a1e6b6fe6d9a267ea17f80e06771
   PKHUD: c7692163a09875cbf15827dc581df3c5cf7f1015
   RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
@@ -25,5 +37,12 @@ SPEC CHECKSUMS:
   RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
 
 PODFILE CHECKSUM: 4f7b20f016827797502af97cc37ea30d427f9ea3
+=======
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxCommand: 3012bc1f9c4ab0bbc47413c433b40068c72ee255
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+
+PODFILE CHECKSUM: 1f22a9e4d883d63cdc3ab5289c8de560271dfef3
+>>>>>>> 810ecc6... update : 第一次提交
 
 COCOAPODS: 1.2.1

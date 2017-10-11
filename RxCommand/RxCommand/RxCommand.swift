@@ -47,10 +47,18 @@ public class RxCommand<Input, Output> {
             .flatMap {
                 $0
                     .map { _ in 0 }
+<<<<<<< HEAD
                     .ignoreElements()
                     .catchError{ _ in Observable.empty() }
                     .concat(Observable.just(-1))
                     .startWith(1)
+=======
+                    .catchError{ _ in Observable.empty()}
+                    .ignoreElements()
+                    .andThen(Observable.just(-1))
+                    .startWith(1)
+//                    .ignoreElements()
+>>>>>>> 810ecc6... update : 第一次提交
             }
             .scan(0) { $0 + $1 }
             .map { $0 > 0 }

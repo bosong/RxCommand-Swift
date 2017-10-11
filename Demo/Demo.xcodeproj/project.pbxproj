@@ -35,7 +35,11 @@
 		916E0DCC1F8E0B6800AFAE12 /* ProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
 		916E0DCE1F8E0C1800AFAE12 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		916E0DD01F8E147600AFAE12 /* CaptchaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptchaButton.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		91D867DA1F8DFD6D008CCD64 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
+		91D867DA1F8DFD6D008CCD64 /* RXCommand-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RXCommand-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+>>>>>>> 810ecc6... update : 第一次提交
 		91D867DD1F8DFD6D008CCD64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91D867DF1F8DFD6D008CCD64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		91D867E21F8DFD6D008CCD64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -81,7 +85,11 @@
 		91D867DB1F8DFD6D008CCD64 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				91D867DA1F8DFD6D008CCD64 /* Demo.app */,
+=======
+				91D867DA1F8DFD6D008CCD64 /* RXCommand-Example.app */,
+>>>>>>> 810ecc6... update : 第一次提交
 				91D867EE1F8DFD6D008CCD64 /* DemoTests.xctest */,
 			);
 			name = Products;
@@ -91,8 +99,13 @@
 			isa = PBXGroup;
 			children = (
 				91D867DD1F8DFD6D008CCD64 /* AppDelegate.swift */,
+<<<<<<< HEAD
 				91D867DF1F8DFD6D008CCD64 /* ViewController.swift */,
 				916E0DCE1F8E0C1800AFAE12 /* ViewModel.swift */,
+=======
+				916E0DCE1F8E0C1800AFAE12 /* ViewModel.swift */,
+				91D867DF1F8DFD6D008CCD64 /* ViewController.swift */,
+>>>>>>> 810ecc6... update : 第一次提交
 				916E0DCC1F8E0B6800AFAE12 /* ProgressHUD.swift */,
 				91D867E11F8DFD6D008CCD64 /* Main.storyboard */,
 				91D867E41F8DFD6D008CCD64 /* Assets.xcassets */,
@@ -149,7 +162,11 @@
 			);
 			name = Demo;
 			productName = Demo;
+<<<<<<< HEAD
 			productReference = 91D867DA1F8DFD6D008CCD64 /* Demo.app */;
+=======
+			productReference = 91D867DA1F8DFD6D008CCD64 /* RXCommand-Example.app */;
+>>>>>>> 810ecc6... update : 第一次提交
 			productType = "com.apple.product-type.application";
 		};
 		91D867ED1F8DFD6D008CCD64 /* DemoTests */ = {
@@ -443,12 +460,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+<<<<<<< HEAD
 				DEVELOPMENT_TEAM = RJX3H8KBAF;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.listenzz.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+=======
+				DEVELOPMENT_TEAM = R7S834E44L;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.RXCommand-Example";
+				PRODUCT_NAME = "RXCommand-Example";
+				SWIFT_VERSION = 5.0;
+>>>>>>> 810ecc6... update : 第一次提交
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -459,12 +485,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+<<<<<<< HEAD
 				DEVELOPMENT_TEAM = RJX3H8KBAF;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.listenzz.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+=======
+				DEVELOPMENT_TEAM = R7S834E44L;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.RXCommand-Example";
+				PRODUCT_NAME = "RXCommand-Example";
+				SWIFT_VERSION = 5.0;
+>>>>>>> 810ecc6... update : 第一次提交
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

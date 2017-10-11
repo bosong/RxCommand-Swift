@@ -7,6 +7,7 @@
 //
 
 import Foundation
+<<<<<<< HEAD
 import PKHUD
 
 class ProgressHUD {
@@ -41,5 +42,41 @@ class ProgressHUD {
         }
 
     }
+=======
+//import PKHUD
+
+class ProgressHUD {
+    
+//    static var mapViews: [UIView : PKHUD] = [:]
+//
+//    class func showMessage(_ msg: String, addTo view: UIView) {
+//        let hud = PKHUD()
+//        hud.contentView = PKHUDTextView(text: msg)
+//        hud.show(onView: view)
+//        hud.hide(afterDelay: 2)
+//    }
+//
+//    class func showError(_ error: String?, addTo view: UIView) {
+//        let hud = PKHUD()
+//        hud.contentView = PKHUDTextView(text: error)
+//        hud.show(onView: view)
+//        hud.hide(afterDelay: 2)
+//    }
+//
+//    class func showLoading(_ view: UIView) {
+//        let hud = PKHUD()
+//        hud.contentView = PKHUDProgressView()
+//        hud.show(onView: view)
+//        mapViews[view] = hud
+//    }
+//
+//    class func hideLoading(_ view: UIView) {
+//        if let hud = mapViews[view] {
+//            hud.hide()
+//            mapViews[view] = nil
+//        }
+//
+//    }
+>>>>>>> 810ecc6... update : 第一次提交
     
 }
