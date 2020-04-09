@@ -65,11 +65,7 @@ class ViewController: UIViewController {
             .switchLatest()
             .bind { [weak self] _ in
                 guard let `self` = self else { return }
-<<<<<<< HEAD
                 ProgressHUD.showMessage("登陆成功", addTo: self.view)
-=======
-                //ProgressHUD.showMessage("登陆成功", addTo: self.view)
->>>>>>> 810ecc6... update : 第一次提交
             }
             .disposed(by: bag)
         
@@ -78,11 +74,7 @@ class ViewController: UIViewController {
             .switchLatest()
             .bind { [weak self] _ in
                 guard let `self` = self else { return }
-<<<<<<< HEAD
                 ProgressHUD.showMessage("请求成功，你的验证码是 123456", addTo: self.view)
-=======
-                //ProgressHUD.showMessage("请求成功，你的验证码是 123456", addTo: self.view)
->>>>>>> 810ecc6... update : 第一次提交
             }
             .disposed(by: bag)
         
@@ -97,11 +89,7 @@ class ViewController: UIViewController {
         Observable.merge(viewModel.captchaCommand.errors, viewModel.loginCommand.errors)
             .bind { [weak self] error in
                 guard let `self` = self else { return }
-<<<<<<< HEAD
                 ProgressHUD.showError(error.localizedDescription, addTo: self.view)
-=======
-                //ProgressHUD.showError(error.localizedDescription, addTo: self.view)
->>>>>>> 810ecc6... update : 第一次提交
             }
             .disposed(by: bag)
         
@@ -109,11 +97,7 @@ class ViewController: UIViewController {
         Observable.merge(viewModel.captchaCommand.executing, viewModel.loginCommand.executing)
             .bind { [weak self] executing in
                 guard let `self` = self else { return }
-<<<<<<< HEAD
                 executing ? ProgressHUD.showLoading(self.view) : ProgressHUD.hideLoading(self.view)
-=======
-                //executing ? ProgressHUD.showLoading(self.view) : ProgressHUD.hideLoading(self.view)
->>>>>>> 810ecc6... update : 第一次提交
             }
          .disposed(by: bag)
 
