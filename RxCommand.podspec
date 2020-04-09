@@ -19,7 +19,7 @@ s.source       = { :git => "git@github.com:listenzz/RxCommand-Swift.git", :tag =
 s.source_files  = "RxCommand/RxCommand/**/*.{swift}"
 
 s.frameworks  = "Foundation"
-s.dependency "RxSwift", "~> 3.0"
-s.dependency "RxCocoa", "~> 3.0"
+s.dependency "RxSwift", "~> 4.5.0"
+s.dependency "RxCocoa", "~> 4.5.0"
 
 end

@@ -16,8 +16,8 @@ target 'Demo' do
     # pod 'RxCommand', :git => "git@github.com:listenzz/RxCommand-Swift.git"
     
     # HUD https://github.com/pkluz/PKHUD
-    pod 'PKHUD', '4.2.3'
+    pod 'PKHUD'
     
     # IQKeyboardManager https://github.com/hackiftekhar/IQKeyboardManager
-    pod 'IQKeyboardManagerSwift', '4.0.10'
+    pod 'IQKeyboardManagerSwift'
 end

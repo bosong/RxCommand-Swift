@@ -47,9 +47,9 @@ public class RxCommand<Input, Output> {
             .flatMap {
                 $0
                     .map { _ in 0 }
+                    .catchError{ _ in Observable.empty()}
                     .ignoreElements()
-                    .catchError{ _ in Observable.empty() }
-                    .concat(Observable.just(-1))
+                    .andThen(Observable.just(-1))
                     .startWith(1)
             }
             .scan(0) { $0 + $1 }
