@@ -35,11 +35,7 @@
 		916E0DCC1F8E0B6800AFAE12 /* ProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
 		916E0DCE1F8E0C1800AFAE12 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		916E0DD01F8E147600AFAE12 /* CaptchaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptchaButton.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		91D867DA1F8DFD6D008CCD64 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-=======
-		91D867DA1F8DFD6D008CCD64 /* RXCommand-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RXCommand-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
->>>>>>> 810ecc6... update : 第一次提交
 		91D867DD1F8DFD6D008CCD64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91D867DF1F8DFD6D008CCD64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		91D867E21F8DFD6D008CCD64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -85,11 +81,7 @@
 		91D867DB1F8DFD6D008CCD64 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				91D867DA1F8DFD6D008CCD64 /* Demo.app */,
-=======
-				91D867DA1F8DFD6D008CCD64 /* RXCommand-Example.app */,
->>>>>>> 810ecc6... update : 第一次提交
 				91D867EE1F8DFD6D008CCD64 /* DemoTests.xctest */,
 			);
 			name = Products;
@@ -99,13 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				91D867DD1F8DFD6D008CCD64 /* AppDelegate.swift */,
-<<<<<<< HEAD
 				91D867DF1F8DFD6D008CCD64 /* ViewController.swift */,
 				916E0DCE1F8E0C1800AFAE12 /* ViewModel.swift */,
-=======
-				916E0DCE1F8E0C1800AFAE12 /* ViewModel.swift */,
-				91D867DF1F8DFD6D008CCD64 /* ViewController.swift */,
->>>>>>> 810ecc6... update : 第一次提交
 				916E0DCC1F8E0B6800AFAE12 /* ProgressHUD.swift */,
 				91D867E11F8DFD6D008CCD64 /* Main.storyboard */,
 				91D867E41F8DFD6D008CCD64 /* Assets.xcassets */,
@@ -154,7 +141,6 @@
 				91D867D71F8DFD6D008CCD64 /* Frameworks */,
 				91D867D81F8DFD6D008CCD64 /* Resources */,
 				32AF207BEE9DADE020EDE705 /* [CP] Embed Pods Frameworks */,
-				6B563BFFFBB478515CAB0960 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,11 +148,7 @@
 			);
 			name = Demo;
 			productName = Demo;
-<<<<<<< HEAD
 			productReference = 91D867DA1F8DFD6D008CCD64 /* Demo.app */;
-=======
-			productReference = 91D867DA1F8DFD6D008CCD64 /* RXCommand-Example.app */;
->>>>>>> 810ecc6... update : 第一次提交
 			productType = "com.apple.product-type.application";
 		};
 		91D867ED1F8DFD6D008CCD64 /* DemoTests */ = {
@@ -255,13 +237,24 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCommand/RxCommand.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCommand.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		60EF9190F6ADD3E1B097C13E /* [CP] Check Pods Manifest.lock */ = {
@@ -270,28 +263,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Demo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		6B563BFFFBB478515CAB0960 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Demo/Pods-Demo-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -401,6 +382,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -450,6 +432,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -460,21 +443,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-<<<<<<< HEAD
 				DEVELOPMENT_TEAM = RJX3H8KBAF;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.listenzz.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-=======
-				DEVELOPMENT_TEAM = R7S834E44L;
-				INFOPLIST_FILE = Demo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.RXCommand-Example";
-				PRODUCT_NAME = "RXCommand-Example";
 				SWIFT_VERSION = 5.0;
->>>>>>> 810ecc6... update : 第一次提交
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -485,21 +459,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-<<<<<<< HEAD
 				DEVELOPMENT_TEAM = RJX3H8KBAF;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.listenzz.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-=======
-				DEVELOPMENT_TEAM = R7S834E44L;
-				INFOPLIST_FILE = Demo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.RXCommand-Example";
-				PRODUCT_NAME = "RXCommand-Example";
 				SWIFT_VERSION = 5.0;
->>>>>>> 810ecc6... update : 第一次提交
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
